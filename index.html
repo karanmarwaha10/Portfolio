@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Karan Marwaha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c123d1fdbb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="karanlogo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#wrapper">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <img src="part1.webp" alt=""> -->
+                <p>Hi I'm Karan Marwaha</span></p>
+                <h1>I am a <span class="role"> </span> </h1>
+                <br>
+                <br>
+                <p>My <span class="yes">Expertise</span> is to turn ideas into real life products.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="part2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="text">I am a versatile and passionate software developer with a strong foundation in web development.I bring creativity and technical expertise to every project.  
+                     In my journey as a developer, I have honed my skills in designing and developing robust, scalable, and user-friendly web applications. As a web developer, I specialize in creating responsive and visually appealing websites that offer seamless user experiences.In both software and web development, my dedication to continuous learning and staying up-to-date with the latest industry trends allows me to deliver cutting-edge solutions. I am a collaborative team player, eager to contribute my skills to create digital experiences that leave a lasting impression.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul >
+                            <li class="part1">
+                                <span>Web Devloper</span>
+                                <br>
+                                <br>
+                               <p>CSS , HTML and JS </p> 
+                                <br>
+                                <br>
+                              <p>  MERN STACK </p>
+                                <br>
+                                <br>
+                              <p> TAILWIND</p>  
+                                <br>
+                                <br>
+                              <p>  Git</p> 
+                                <br>
+                                <br>
+                              <p> Computer Networks</p>  
+
+                            </li>
+                            <br>
+                            <li class="part2">
+                                <span>Software Devloper</span>
+                                <br>
+                                <br>
+                                C++
+                                <br>
+                                <br>
+                                Software Engineering
+                                <br>
+                                <br>
+                                Data Structures and Algorithms
+                            </li>
+                            <br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Experience</span>
+                                <br>
+                                <br>
+                                Created more than 10 projects in web devlopment
+                                <br>
+                                <br>
+                                2 years of experience in Frontend Devlopment
+                                <br>
+                                <br>
+                                Solved more than 200 leetcode problems
+                              
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Education</span><br><br>
+                                Current - Persuing Btech(CSE) from IPU
+                                <br><br>
+                                2022 - Training done from IBM(web devlopment)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Devloper</h2>
+                    <p>I'm a passionate web developer dedicated to crafting user-centric and visually appealing websites. Proficient in HTML, CSS, and JavaScript, I thrive on creating responsive, interactive, and well-structured web solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Devloper</h2>
+                    <p>I'm a dedicated software developer with a passion for crafting innovative and efficient solutions. Armed with a solid foundation in various programming languages.
+                     My problem-solving skills and attention to detail ensure that every project I undertake meets the highest standards. 
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work work1">
+                    <img src="work1.png" alt="">
+                    <div class="layer">
+                        <h3>Grocery website</h3>
+                        <p>The website that provides onvenient and accessible platform for customers to order groceries
+                            online.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png" alt="">
+                    <div class="layer">
+                        <h3>Coffee website</h3>
+                        <p>Creating a coffee website to showcase my way of selling coffee products.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png" alt="" style="height: 1030px;">
+                    <div class="layer">
+                        <h3>The Studio</h3>
+                        <p>Creating a headphone website to sell headphones, audio accessories, and related products.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/karanmarwaha10" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>workwithkaran06@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="DXC+Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Mesage"></textarea>
+                        <button type="submit" class="btn btn2">Submit
+                    </form></button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-sharp fa-regular fa-copyright"></i> Karan Marwaha. <i
+                    class="fa-solid fa-briefcase"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwzajqM7LIKx63O40Wf279DTetu0DGbpip0e8hnKdF5X1Q5rcKHRztip4jQlXY1modu/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = " "
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Devloper",
+                "Coder",
+                "Software Devloper"
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+
+</html>
