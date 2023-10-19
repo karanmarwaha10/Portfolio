@@ -55,7 +55,7 @@ nav ul li a::after{
     background: #ff004f;
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: 0px;
     transition: 0.5s;
 }
 nav ul li a:hover::after{
@@ -131,7 +131,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     left: 0;
-    bottom: -8px;
+    bottom: 0px;
     height: 3px;
     background: #ff004f;
     transition: 0.5s;
@@ -171,7 +171,7 @@ nav ul li a:hover::after{
     grid-gap: 35px;
     margin-top: 50px;
     place-items:center;
-    /* width:3000px; */
+      height: 450px;
 }
 
 .services-list div{
@@ -303,6 +303,7 @@ nav ul li a:hover::after{
 }
 .contact-right{
     flex-basis: 60%;
+     overflow-y:hidden;
 }
 .contact-left p{
     margin-top: 30px;
