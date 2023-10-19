@@ -98,7 +98,9 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .text{
-    width:100px;
+   font-weight: 2000;
+    font-size:20px;
+    gap: 2px;
 }
 /* .about-col-2, .text{
     width:100px;
@@ -373,7 +375,7 @@ nav .fa-sharp {
         /* width:89vh; */
     }
     .header-text{
-        margin-top:190%;
+        margin-top:145%;
         font-size:16px;
     }
     .header-text h1{
