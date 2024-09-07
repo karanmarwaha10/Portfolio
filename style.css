@@ -485,6 +485,9 @@ transition: right 0.5s;
     .work-list a{
         margin-bottom:30px;
     }
+        .work-list i{
+        margin-bottom:4px
+    }
     .work-list h3{
         font-size:6vw;
         height:45px
